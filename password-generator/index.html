@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32"  href="favicon-32x32.png">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="passwordContainer">
+        <div class="glitch-wrapper">
+            <div class="glitch" data-glitch="Password Generator">Password Generator <span><a href="index.html">🔑</a></span></div>
+        </div>
+        <div class="inputContainer">
+            <input type="text" placeholder="New password" readonly>
+            <i class="fa-solid fa-copy fa-2xl"></i>
+        </div>
+        <button class="passwordBtn">Produce</button>
+        <div class="pulse"></div>
+    </div>
+    
+    <div class="alertContainer active">Copied <span id="checkIcon">✔</span>
+        <div class="borderLeft"></div>
+    </div>
+    
+
+<script src="password.js"></script>
+</body>
+</html>
